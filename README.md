@@ -1,42 +1,48 @@
-# PRODIGY_CS_05 – Network Packet Analyzer
 
-## 📌 Task Description
-This project is part of the Prodigy Infotech Cyber Security Internship (Task-05).
 
-The objective of this task is to develop a network packet sniffer that captures and analyzes live network packets. The tool displays essential packet information such as source IP address, destination IP address, protocol type, and payload data.
+# 📡 Packet Sniffer (Educational & Ethical Use Only)  
+**Prodigy InfoTech – Cyber Security Internship (Task 05)**
 
----
+## 📌 Project Overview
+This project implements a **Packet Sniffer** using Python to capture and analyze network packets in real time.  
+The objective is to understand how data flows across a network and how attackers may intercept packets, enabling cybersecurity professionals to **detect threats, analyze traffic, and strengthen network security**.
 
-## 🛠️ Technology Used
-- Python 3
-- Socket Programming
-- Raw Sockets (Windows)
+⚠️ **Disclaimer:**  
+This project is developed strictly for **educational purposes** and must only be used in **authorized and controlled environments** with proper permissions.
 
 ---
 
-## 🚀 Features
-- Captures live network packets
-- Displays:
-  - Source IP address
-  - Destination IP address
-  - Protocol (TCP / UDP / ICMP / Others)
-  - Payload data (raw bytes)
-- Works in real-time
-- Designed strictly for educational purposes
+## 🛡️ Features
+- Captures live network packets  
+- Extracts and analyzes packet headers  
+- Identifies protocol types (TCP, UDP, ICMP, etc.)  
+- Displays source and destination IP addresses  
+- Helps understand network traffic behavior  
+- Useful for learning **network monitoring and intrusion detection basics**  
 
 ---
 
-## ▶️ How to Run the Program
+## ⚙️ How It Works
+1. The program listens to the network interface  
+2. Incoming packets are captured in real time  
+3. Packet headers are extracted and analyzed  
+4. Protocol information is identified  
+5. Source and destination IP addresses are displayed  
+6. Traffic patterns can be studied for security analysis  
 
-### Prerequisites
-- Windows OS
-- Python 3 installed
-- VS Code or Command Prompt
-- Administrator privileges (required for raw sockets)
+---
 
-### Steps
-1. Open **VS Code as Administrator**
-2. Open the project folder
-3. Run the script:
-   ```bash
-   python packet_sniffer.py
+## 🧰 Technologies Used
+- **Python**  
+- **Socket / Scapy library** (for packet capture and analysis)  
+- **VS Code**  
+- **Git & GitHub**  
+
+---
+
+## 📚 Key Learnings
+- Understanding **network communication fundamentals**  
+- Packet structure and protocol analysis  
+- Basics of **TCP/IP networking**  
+- Role of packet sniffing in **network security and monitoring**  
+- Ethical considerations in network traffic analysis  
